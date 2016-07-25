@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D039064C285E7F11011845C /* libPods-wppl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D648EC4721269C14104F923 /* libPods-wppl.a */; };
 		7F7BD6C61D464AB300CFFB13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7BD6C51D464AB300CFFB13 /* main.m */; };
 		7F7BD6C91D464AB300CFFB13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7BD6C81D464AB300CFFB13 /* AppDelegate.m */; };
 		7F7BD6CC1D464AB300CFFB13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7BD6CB1D464AB300CFFB13 /* ViewController.m */; };
@@ -14,6 +15,10 @@
 		7F7BD6D11D464AB300CFFB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7BD6D01D464AB300CFFB13 /* Assets.xcassets */; };
 		7F7BD6D41D464AB300CFFB13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7BD6D21D464AB300CFFB13 /* LaunchScreen.storyboard */; };
 		7F7BD6DF1D464AB400CFFB13 /* wpplTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7BD6DE1D464AB400CFFB13 /* wpplTests.m */; };
+		7F7BD6EC1D464B7500CFFB13 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7BD6EB1D464B7500CFFB13 /* News.m */; };
+		7F7BD6F01D464BF500CFFB13 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7BD6EE1D464BF500CFFB13 /* NewsTableViewCell.m */; };
+		7F7BD6F11D464BF500CFFB13 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7BD6EF1D464BF500CFFB13 /* NewsTableViewCell.xib */; };
+		D1432FF288DA3F747CF82C51 /* libPods-wpplTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 869440A20CE665441AFE9C8A /* libPods-wpplTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BD5B82B886EE5557F8B4A56 /* Pods-wppl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wppl.release.xcconfig"; path = "Pods/Target Support Files/Pods-wppl/Pods-wppl.release.xcconfig"; sourceTree = "<group>"; };
+		43B1F344BF23D8F4EB90B980 /* Pods-wppl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wppl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wppl/Pods-wppl.debug.xcconfig"; sourceTree = "<group>"; };
+		7D10B5CF52FF0F8802E277F9 /* Pods-wpplTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wpplTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wpplTests/Pods-wpplTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F7BD6C11D464AB300CFFB13 /* wppl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wppl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7BD6C51D464AB300CFFB13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F7BD6C71D464AB300CFFB13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +48,14 @@
 		7F7BD6DA1D464AB400CFFB13 /* wpplTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wpplTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7BD6DE1D464AB400CFFB13 /* wpplTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wpplTests.m; sourceTree = "<group>"; };
 		7F7BD6E01D464AB400CFFB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7BD6EA1D464B7500CFFB13 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		7F7BD6EB1D464B7500CFFB13 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		7F7BD6ED1D464BF500CFFB13 /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		7F7BD6EE1D464BF500CFFB13 /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		7F7BD6EF1D464BF500CFFB13 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		869440A20CE665441AFE9C8A /* libPods-wpplTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wpplTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9268AA87BF89F9D5B3F71979 /* Pods-wpplTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wpplTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wpplTests/Pods-wpplTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D648EC4721269C14104F923 /* libPods-wppl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wppl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D039064C285E7F11011845C /* libPods-wppl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1432FF288DA3F747CF82C51 /* libPods-wpplTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +84,8 @@
 				7F7BD6C31D464AB300CFFB13 /* wppl */,
 				7F7BD6DD1D464AB400CFFB13 /* wpplTests */,
 				7F7BD6C21D464AB300CFFB13 /* Products */,
+				BCE3238AA64456589CBB2E3E /* Pods */,
+				EF0B8F3173AC9C703EE33142 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +101,15 @@
 		7F7BD6C31D464AB300CFFB13 /* wppl */ = {
 			isa = PBXGroup;
 			children = (
+				7F7BD6E91D464B5F00CFFB13 /* Model */,
 				7F7BD6C71D464AB300CFFB13 /* AppDelegate.h */,
 				7F7BD6C81D464AB300CFFB13 /* AppDelegate.m */,
 				7F7BD6CA1D464AB300CFFB13 /* ViewController.h */,
 				7F7BD6CB1D464AB300CFFB13 /* ViewController.m */,
 				7F7BD6CD1D464AB300CFFB13 /* Main.storyboard */,
+				7F7BD6ED1D464BF500CFFB13 /* NewsTableViewCell.h */,
+				7F7BD6EE1D464BF500CFFB13 /* NewsTableViewCell.m */,
+				7F7BD6EF1D464BF500CFFB13 /* NewsTableViewCell.xib */,
 				7F7BD6D01D464AB300CFFB13 /* Assets.xcassets */,
 				7F7BD6D21D464AB300CFFB13 /* LaunchScreen.storyboard */,
 				7F7BD6D51D464AB300CFFB13 /* Info.plist */,
@@ -111,6 +135,35 @@
 			path = wpplTests;
 			sourceTree = "<group>";
 		};
+		7F7BD6E91D464B5F00CFFB13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F7BD6EA1D464B7500CFFB13 /* News.h */,
+				7F7BD6EB1D464B7500CFFB13 /* News.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BCE3238AA64456589CBB2E3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43B1F344BF23D8F4EB90B980 /* Pods-wppl.debug.xcconfig */,
+				2BD5B82B886EE5557F8B4A56 /* Pods-wppl.release.xcconfig */,
+				7D10B5CF52FF0F8802E277F9 /* Pods-wpplTests.debug.xcconfig */,
+				9268AA87BF89F9D5B3F71979 /* Pods-wpplTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF0B8F3173AC9C703EE33142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D648EC4721269C14104F923 /* libPods-wppl.a */,
+				869440A20CE665441AFE9C8A /* libPods-wpplTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F7BD6E31D464AB400CFFB13 /* Build configuration list for PBXNativeTarget "wppl" */;
 			buildPhases = (
+				D6207694DEB9DAAA6283CA9C /* [CP] Check Pods Manifest.lock */,
 				7F7BD6BD1D464AB300CFFB13 /* Sources */,
 				7F7BD6BE1D464AB300CFFB13 /* Frameworks */,
 				7F7BD6BF1D464AB300CFFB13 /* Resources */,
+				BBF7FF1075E5FBD544163E3C /* [CP] Embed Pods Frameworks */,
+				D521448F167417A637619DF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F7BD6E61D464AB400CFFB13 /* Build configuration list for PBXNativeTarget "wpplTests" */;
 			buildPhases = (
+				F0691B142A5C369140393B7F /* [CP] Check Pods Manifest.lock */,
 				7F7BD6D61D464AB400CFFB13 /* Sources */,
 				7F7BD6D71D464AB400CFFB13 /* Frameworks */,
 				7F7BD6D81D464AB400CFFB13 /* Resources */,
+				57F683635ABDDE2B21FBEAB7 /* [CP] Embed Pods Frameworks */,
+				0B2D76C472B239E677D7F63C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +252,7 @@
 			files = (
 				7F7BD6D41D464AB300CFFB13 /* LaunchScreen.storyboard in Resources */,
 				7F7BD6D11D464AB300CFFB13 /* Assets.xcassets in Resources */,
+				7F7BD6F11D464BF500CFFB13 /* NewsTableViewCell.xib in Resources */,
 				7F7BD6CF1D464AB300CFFB13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,13 +266,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B2D76C472B239E677D7F63C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wpplTests/Pods-wpplTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57F683635ABDDE2B21FBEAB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wpplTests/Pods-wpplTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF7FF1075E5FBD544163E3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wppl/Pods-wppl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D521448F167417A637619DF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wppl/Pods-wppl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6207694DEB9DAAA6283CA9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0691B142A5C369140393B7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F7BD6BD1D464AB300CFFB13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7F7BD6CC1D464AB300CFFB13 /* ViewController.m in Sources */,
+				7F7BD6F01D464BF500CFFB13 /* NewsTableViewCell.m in Sources */,
 				7F7BD6C91D464AB300CFFB13 /* AppDelegate.m in Sources */,
+				7F7BD6EC1D464B7500CFFB13 /* News.m in Sources */,
 				7F7BD6C61D464AB300CFFB13 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +496,7 @@
 		};
 		7F7BD6E41D464AB400CFFB13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B1F344BF23D8F4EB90B980 /* Pods-wppl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wppl/Info.plist;
@@ -352,6 +508,7 @@
 		};
 		7F7BD6E51D464AB400CFFB13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD5B82B886EE5557F8B4A56 /* Pods-wppl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wppl/Info.plist;
@@ -363,6 +520,7 @@
 		};
 		7F7BD6E71D464AB400CFFB13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D10B5CF52FF0F8802E277F9 /* Pods-wpplTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = wpplTests/Info.plist;
@@ -375,6 +533,7 @@
 		};
 		7F7BD6E81D464AB400CFFB13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9268AA87BF89F9D5B3F71979 /* Pods-wpplTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = wpplTests/Info.plist;
@@ -404,6 +563,7 @@
 				7F7BD6E51D464AB400CFFB13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F7BD6E61D464AB400CFFB13 /* Build configuration list for PBXNativeTarget "wpplTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +572,7 @@
 				7F7BD6E81D464AB400CFFB13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
