@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "News.h"
 
 @protocol NewsTableViewCellDelegate;
 
@@ -16,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *iconView;
 @property (weak, nonatomic) IBOutlet UILabel *descLabel;
+@property (weak, nonatomic) News *news;
 
 @end
 
