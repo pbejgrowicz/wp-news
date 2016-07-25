@@ -10,9 +10,9 @@
 
 @interface News : NSObject
 
-@property (weak, nonatomic) NSString *title;
-@property (weak, nonatomic) NSString *url;
-@property (weak, nonatomic) NSString *imageUrl;
-@property (weak, nonatomic) NSString *desc;
+@property (strong, nonatomic) NSString *title;
+@property (strong, nonatomic) NSString *url;
+@property (strong, nonatomic) NSString *imageUrl;
+@property (strong, nonatomic) NSString *desc;
 
 @end

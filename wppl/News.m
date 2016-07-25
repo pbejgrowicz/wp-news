@@ -10,4 +10,9 @@
 
 @implementation News
 
+@synthesize title = _title;
+@synthesize url = _url;
+@synthesize imageUrl = _imageUrl;
+@synthesize desc = _desc;
+
 @end
