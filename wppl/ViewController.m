@@ -54,12 +54,9 @@
         news.desc = [[element firstChild] content];
         news.imageUrl = [[imageNodes objectAtIndex:count] objectForKey:@"src"];
         count++;
-        NSLog(@"%@\n", news.imageUrl);
+        //NSLog(@"%@\n", news.imageUrl);
     }
     
-    for (News *element in newNews) {
-        NSLog(@"%@\n", element.title);
-    }
     
     _objects = newNews;
     [self.tableView reloadData];
@@ -100,6 +97,9 @@
     {
         cell = [NewsTableViewCell new];
     }
+    UIView * additionalSeparator = [[UIView alloc] initWithFrame:CGRectMake(0,cell.frame.size.height-3,cell.frame.size.width*5,3)];
+    additionalSeparator.backgroundColor = [UIColor grayColor];
+    [cell addSubview:additionalSeparator];
     News *news = [_objects objectAtIndex:indexPath.row];
     cell.news = news;
     cell.titleLabel.text = news.title;
@@ -125,8 +125,14 @@
 
 - (void)cellTapped:(NewsTableViewCell*)cell
 {
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://wiadomosci.wp.pl%@",cell.news.url]];
-    [[UIApplication sharedApplication] openURL:url];
+    //NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://wiadomosci.wp.pl%@",cell.news.url]];
+    //[[UIApplication sharedApplication] openURL:url];
+    
+    NewsTableViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"NewsTableViewController"];
+    viewController.url = [NSString stringWithFormat:@"http://wiadomosci.wp.pl%@",cell.news.url];
+    [self.navigationController pushViewController:viewController animated:YES];
+    
+    
     // return;
 }
 

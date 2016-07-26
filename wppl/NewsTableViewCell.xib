@@ -24,10 +24,10 @@
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OCs-C0-b9B">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OCs-C0-b9B">
                         <rect key="frame" x="8" y="65" width="304" height="128"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2J3-9a-iob">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2J3-9a-iob">
                         <rect key="frame" x="8" y="201" width="304" height="140"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="140" id="rEX-Sf-YVW"/>
@@ -47,7 +47,7 @@
                     <constraint firstItem="OCs-C0-b9B" firstAttribute="top" secondItem="DD8-Fj-LAL" secondAttribute="bottom" constant="8" symbolic="YES" id="aEH-Fc-wJE"/>
                     <constraint firstItem="OCs-C0-b9B" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="oKE-cR-heW"/>
                     <constraint firstItem="2J3-9a-iob" firstAttribute="top" secondItem="OCs-C0-b9B" secondAttribute="bottom" constant="8" symbolic="YES" id="qHY-xU-5Mb"/>
-                    <constraint firstItem="2J3-9a-iob" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="ztI-3J-DH9"/>
+                    <constraint firstItem="2J3-9a-iob" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" constant="1" id="ztI-3J-DH9"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

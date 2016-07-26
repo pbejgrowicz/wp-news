@@ -10,6 +10,7 @@
 #import <TFHpple.h>
 #import "News.h"
 #import "NewsTableViewCell.h"
+#import "NewsTableViewController.h"
 
 
 
