@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TFHpple.h>
+#import "TitleTableViewCell.h"
+#import "ImageTableViewCell.h"
+#import "TextTableViewCell.h"
 
-@interface NewsTableViewController : UITableViewController
+@interface NewsTableViewController : UITableViewController 
 @property (strong, nonatomic, readwrite) NSString *url;
+@property (nonatomic, strong) NSArray *newsItems;
+@property (strong, nonatomic, readwrite) NSString *titleText;
+
+
 @end
+

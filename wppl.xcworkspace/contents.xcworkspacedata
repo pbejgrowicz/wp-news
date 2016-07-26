@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TextTableViewCell.h">
+   </FileRef>
+   <FileRef
+      location = "group:TextTableViewCell.m">
+   </FileRef>
+   <FileRef
+      location = "group:TextTableViewCell.xib">
+   </FileRef>
+   <FileRef
       location = "group:wppl.xcodeproj">
    </FileRef>
    <FileRef
