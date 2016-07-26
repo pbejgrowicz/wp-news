@@ -90,6 +90,7 @@
     
     
     cell.backgroundColor = [UIColor clearColor];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     cell.delegate = self;
     
@@ -97,8 +98,10 @@
     {
         cell = [NewsTableViewCell new];
     }
-    UIView * additionalSeparator = [[UIView alloc] initWithFrame:CGRectMake(0,cell.frame.size.height-3,cell.frame.size.width*5,3)];
-    additionalSeparator.backgroundColor = [UIColor grayColor];
+    
+    UIView * additionalSeparator = [[UIView alloc] initWithFrame:CGRectMake(0,cell.frame.size.height-10,cell.frame.size.width*5,10)];
+    
+    additionalSeparator.backgroundColor = [UIColor lightGrayColor];
     [cell addSubview:additionalSeparator];
     News *news = [_objects objectAtIndex:indexPath.row];
     cell.news = news;

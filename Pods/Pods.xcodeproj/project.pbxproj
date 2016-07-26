@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BBDD52ACF9CF53BF414407148F6C0B1 /* hpple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF103B1DF51A7E3F4CD73E76FEE1563 /* hpple-dummy.m */; };
+		3B976625C127013075D146FBCEC71628 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B47B5818358DB5E654F1E9E2AF00DEC /* TFHppleElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4335FA6FCAE20B8E94F1A7233ADCCE35 /* Pods-wppl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B90FEF6B26F9FFA7F250DAAC76D2D2 /* Pods-wppl-dummy.m */; };
+		4AE240486ECABFB08378C265CD287AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		646531535C713909BD6AECDB1C3A1FA3 /* Pods-wpplTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B50FF0A4BFE216AC0D7B7A4112A4A /* Pods-wpplTests-dummy.m */; };
+		6FBA733D735772E4E76BB3078EBF5AAB /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A59164863226F02AB4B824705DBCC16 /* XPathQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		74D2300A9BA5E3450B508D310BE732A7 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3274F57A635DCE49F8DE4393E8E3AB /* TFHpple.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9F0A91BE9525B6EF679CBC714BE1EF43 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 501FEACCE8E2A3B8BFC6EDE7AF8DBFE2 /* XPathQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A91C396232A37D9C255C0C3993229BBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DEF016D0F60AAB8F4C7D62A872891CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F752608B923B78E36C74C69225994A51 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EBB797D93A6786BEDEB72C3DCE7D453 /* TFHppleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7CC508DB90D94C42DA4AC57BFD00EB7 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDDA8410C48E0E101AC8F3C8F09C4B4 /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E70C4C64D636B0C7EBAFFFD6F98BA38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA250BDE05647A8E5AE0B5FB0421E3CC;
+			remoteInfo = hpple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E9F046465B2C4DDA43F8B5AC89AAC17 /* Pods-wpplTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wpplTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F5B50FF0A4BFE216AC0D7B7A4112A4A /* Pods-wpplTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wpplTests-dummy.m"; sourceTree = "<group>"; };
+		21BAD55ECBECD3CE9346104007CFC28D /* Pods-wppl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wppl.release.xcconfig"; sourceTree = "<group>"; };
+		2CBD6682C1840186F0ACCDE5109059C5 /* Pods-wppl-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wppl-acknowledgements.plist"; sourceTree = "<group>"; };
+		3626783B99F4FCA030558168B9427875 /* Pods-wpplTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wpplTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4200F180D0B7709BA6C3B848C2D645EA /* hpple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = hpple.xcconfig; sourceTree = "<group>"; };
+		501FEACCE8E2A3B8BFC6EDE7AF8DBFE2 /* XPathQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		5ECA74747B3BC2085682AF8773E55387 /* libPods-wppl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wppl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BA8DF00B14753F6D44C497B19C0028 /* libhpple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhpple.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		610912D2AA3C514B3EF262E26E928A0C /* Pods-wppl-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wppl-acknowledgements.markdown"; sourceTree = "<group>"; };
+		666A345A4BA34F631F1AB1DBEE4B7B01 /* Pods-wppl-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wppl-resources.sh"; sourceTree = "<group>"; };
+		6BDDA8410C48E0E101AC8F3C8F09C4B4 /* TFHpple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		6D64ABCF825C4870493659801349269F /* libPods-wpplTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wpplTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF103B1DF51A7E3F4CD73E76FEE1563 /* hpple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "hpple-dummy.m"; sourceTree = "<group>"; };
+		7934EF7192109AAD19A8EFCE57FB3EF0 /* Pods-wppl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wppl.debug.xcconfig"; sourceTree = "<group>"; };
+		7B47B5818358DB5E654F1E9E2AF00DEC /* TFHppleElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		8AD69FD905AE7C943AEC78860C9D20EB /* Pods-wpplTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wpplTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A59164863226F02AB4B824705DBCC16 /* XPathQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		9EBB797D93A6786BEDEB72C3DCE7D453 /* TFHppleElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		AC3274F57A635DCE49F8DE4393E8E3AB /* TFHpple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		B054E571238D64DEC78B733167C617C4 /* Pods-wpplTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wpplTests.release.xcconfig"; sourceTree = "<group>"; };
+		B57DA389759A497D76373AE342B006B8 /* hpple-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hpple-prefix.pch"; sourceTree = "<group>"; };
+		BB7463015633055582A5D985DDBD23F5 /* Pods-wpplTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wpplTests-resources.sh"; sourceTree = "<group>"; };
+		C5B90FEF6B26F9FFA7F250DAAC76D2D2 /* Pods-wppl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wppl-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF37C560E70ADA3617D019FF8E3674D0 /* Pods-wppl-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wppl-frameworks.sh"; sourceTree = "<group>"; };
+		F134D0B10F20CFE128FD5F112BD84A28 /* Pods-wpplTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wpplTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323B7EFF9FAE165B38F1DA135177B018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF016D0F60AAB8F4C7D62A872891CFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5D6B931BD46586902DD8B51E9E0B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE240486ECABFB08378C265CD287AD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC23D3A620DA7A15854755E6A48CC16E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91C396232A37D9C255C0C3993229BBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1831B08EC252ADA166DC77C9ED383527 /* Pods-wpplTests */ = {
+			isa = PBXGroup;
+			children = (
+				F134D0B10F20CFE128FD5F112BD84A28 /* Pods-wpplTests-acknowledgements.markdown */,
+				0E9F046465B2C4DDA43F8B5AC89AAC17 /* Pods-wpplTests-acknowledgements.plist */,
+				1F5B50FF0A4BFE216AC0D7B7A4112A4A /* Pods-wpplTests-dummy.m */,
+				8AD69FD905AE7C943AEC78860C9D20EB /* Pods-wpplTests-frameworks.sh */,
+				BB7463015633055582A5D985DDBD23F5 /* Pods-wpplTests-resources.sh */,
+				3626783B99F4FCA030558168B9427875 /* Pods-wpplTests.debug.xcconfig */,
+				B054E571238D64DEC78B733167C617C4 /* Pods-wpplTests.release.xcconfig */,
+			);
+			name = "Pods-wpplTests";
+			path = "Target Support Files/Pods-wpplTests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F5AAF7118D5E476480205ABAE27C1BD /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				6BDDA8410C48E0E101AC8F3C8F09C4B4 /* TFHpple.h */,
+				AC3274F57A635DCE49F8DE4393E8E3AB /* TFHpple.m */,
+				9EBB797D93A6786BEDEB72C3DCE7D453 /* TFHppleElement.h */,
+				7B47B5818358DB5E654F1E9E2AF00DEC /* TFHppleElement.m */,
+				501FEACCE8E2A3B8BFC6EDE7AF8DBFE2 /* XPathQuery.h */,
+				9A59164863226F02AB4B824705DBCC16 /* XPathQuery.m */,
+				988ABF8D8CD3BA40A00B409E3D51E97B /* Support Files */,
+			);
+			path = hpple;
+			sourceTree = "<group>";
+		};
+		70272ABFD6F3AE70627AF65F5E782E35 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71917EF123E16564C23B8502BFBA3716 /* Pods-wppl */,
+				1831B08EC252ADA166DC77C9ED383527 /* Pods-wpplTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		71917EF123E16564C23B8502BFBA3716 /* Pods-wppl */ = {
+			isa = PBXGroup;
+			children = (
+				610912D2AA3C514B3EF262E26E928A0C /* Pods-wppl-acknowledgements.markdown */,
+				2CBD6682C1840186F0ACCDE5109059C5 /* Pods-wppl-acknowledgements.plist */,
+				C5B90FEF6B26F9FFA7F250DAAC76D2D2 /* Pods-wppl-dummy.m */,
+				EF37C560E70ADA3617D019FF8E3674D0 /* Pods-wppl-frameworks.sh */,
+				666A345A4BA34F631F1AB1DBEE4B7B01 /* Pods-wppl-resources.sh */,
+				7934EF7192109AAD19A8EFCE57FB3EF0 /* Pods-wppl.debug.xcconfig */,
+				21BAD55ECBECD3CE9346104007CFC28D /* Pods-wppl.release.xcconfig */,
+			);
+			name = "Pods-wppl";
+			path = "Target Support Files/Pods-wppl";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E7E220844E0DAD08F19A1F438E7C3509 /* Pods */,
+				FB2AE000D5975D0C530544E230A4CCA8 /* Products */,
+				70272ABFD6F3AE70627AF65F5E782E35 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		988ABF8D8CD3BA40A00B409E3D51E97B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4200F180D0B7709BA6C3B848C2D645EA /* hpple.xcconfig */,
+				6EF103B1DF51A7E3F4CD73E76FEE1563 /* hpple-dummy.m */,
+				B57DA389759A497D76373AE342B006B8 /* hpple-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/hpple";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7E220844E0DAD08F19A1F438E7C3509 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F5AAF7118D5E476480205ABAE27C1BD /* hpple */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB2AE000D5975D0C530544E230A4CCA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60BA8DF00B14753F6D44C497B19C0028 /* libhpple.a */,
+				5ECA74747B3BC2085682AF8773E55387 /* libPods-wppl.a */,
+				6D64ABCF825C4870493659801349269F /* libPods-wpplTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A2FD8D1D882B227D5F10FB6B360945F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CC508DB90D94C42DA4AC57BFD00EB7 /* TFHpple.h in Headers */,
+				F752608B923B78E36C74C69225994A51 /* TFHppleElement.h in Headers */,
+				9F0A91BE9525B6EF679CBC714BE1EF43 /* XPathQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA250BDE05647A8E5AE0B5FB0421E3CC /* hpple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5174B94A1DEA774BEF5CAA03CE98815B /* Build configuration list for PBXNativeTarget "hpple" */;
+			buildPhases = (
+				675C7AD3EF45AA6969988BC3E73E47A7 /* Sources */,
+				DA5D6B931BD46586902DD8B51E9E0B5C /* Frameworks */,
+				A2FD8D1D882B227D5F10FB6B360945F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hpple;
+			productName = hpple;
+			productReference = 60BA8DF00B14753F6D44C497B19C0028 /* libhpple.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BEE39E2FF584487251C1A2012AB2E8FF /* Pods-wppl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E56290A8C7602A82BD58422D51F8F590 /* Build configuration list for PBXNativeTarget "Pods-wppl" */;
+			buildPhases = (
+				4F72658CC035D1B96D00677B4B2E44E0 /* Sources */,
+				323B7EFF9FAE165B38F1DA135177B018 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FE538F53D1DC4E8685DC36623C9BEC /* PBXTargetDependency */,
+			);
+			name = "Pods-wppl";
+			productName = "Pods-wppl";
+			productReference = 5ECA74747B3BC2085682AF8773E55387 /* libPods-wppl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF83C8285ACAEBA41390C1FD31A72689 /* Pods-wpplTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6725CA637938C7DF708045F3471EF40 /* Build configuration list for PBXNativeTarget "Pods-wpplTests" */;
+			buildPhases = (
+				21728931A4E6F8AABC42F6F946685B0F /* Sources */,
+				EC23D3A620DA7A15854755E6A48CC16E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-wpplTests";
+			productName = "Pods-wpplTests";
+			productReference = 6D64ABCF825C4870493659801349269F /* libPods-wpplTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FB2AE000D5975D0C530544E230A4CCA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA250BDE05647A8E5AE0B5FB0421E3CC /* hpple */,
+				BEE39E2FF584487251C1A2012AB2E8FF /* Pods-wppl */,
+				CF83C8285ACAEBA41390C1FD31A72689 /* Pods-wpplTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21728931A4E6F8AABC42F6F946685B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646531535C713909BD6AECDB1C3A1FA3 /* Pods-wpplTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F72658CC035D1B96D00677B4B2E44E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4335FA6FCAE20B8E94F1A7233ADCCE35 /* Pods-wppl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675C7AD3EF45AA6969988BC3E73E47A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBDD52ACF9CF53BF414407148F6C0B1 /* hpple-dummy.m in Sources */,
+				74D2300A9BA5E3450B508D310BE732A7 /* TFHpple.m in Sources */,
+				3B976625C127013075D146FBCEC71628 /* TFHppleElement.m in Sources */,
+				6FBA733D735772E4E76BB3078EBF5AAB /* XPathQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FE538F53D1DC4E8685DC36623C9BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = hpple;
+			target = BA250BDE05647A8E5AE0B5FB0421E3CC /* hpple */;
+			targetProxy = 2E70C4C64D636B0C7EBAFFFD6F98BA38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05F652EB02C58132B15D4462B3DC3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B054E571238D64DEC78B733167C617C4 /* Pods-wpplTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		09C45EB4A14777782EE8A3BDB6817165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4200F180D0B7709BA6C3B848C2D645EA /* hpple.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/hpple/hpple-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		68F0A7C66CD4C0097650F20C12DB5703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3626783B99F4FCA030558168B9427875 /* Pods-wpplTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9B0686552FB122B7D10E0B84F8478CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7934EF7192109AAD19A8EFCE57FB3EF0 /* Pods-wppl.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9F93B8769528B51EC46954E2DE7D61D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BAD55ECBECD3CE9346104007CFC28D /* Pods-wppl.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D8003018427B5103654778FA256A8A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4200F180D0B7709BA6C3B848C2D645EA /* hpple.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/hpple/hpple-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5174B94A1DEA774BEF5CAA03CE98815B /* Build configuration list for PBXNativeTarget "hpple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8003018427B5103654778FA256A8A72 /* Debug */,
+				09C45EB4A14777782EE8A3BDB6817165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6725CA637938C7DF708045F3471EF40 /* Build configuration list for PBXNativeTarget "Pods-wpplTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F0A7C66CD4C0097650F20C12DB5703 /* Debug */,
+				05F652EB02C58132B15D4462B3DC3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E56290A8C7602A82BD58422D51F8F590 /* Build configuration list for PBXNativeTarget "Pods-wppl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0686552FB122B7D10E0B84F8478CF3 /* Debug */,
+				9F93B8769528B51EC46954E2DE7D61D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

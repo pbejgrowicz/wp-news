@@ -16,6 +16,8 @@
 @property (strong, nonatomic, readwrite) NSString *url;
 @property (nonatomic, strong) NSArray *newsItems;
 @property (strong, nonatomic, readwrite) NSString *titleText;
+@property (strong, nonatomic, readwrite) NSString *imageUrl;
+@property (strong, nonatomic, readwrite) NSString *article;
 
 
 @end

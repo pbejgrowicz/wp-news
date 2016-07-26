@@ -13,6 +13,10 @@
 @end
 
 @implementation NewsTableViewController
+{
+    int titleHeight;
+    int textHeight;
+}
 
 
 - (void)viewDidLoad {
@@ -38,6 +42,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
        [self loadNews];
+    self.title = _titleText;
         [self.tableView reloadData];
 }
 
@@ -47,16 +52,31 @@
     NSURL *newsUrl = [NSURL URLWithString:self.url];
     NSData *newsHtmlData = [NSData dataWithContentsOfURL:newsUrl];
     TFHpple *newsParser  = [TFHpple hppleWithHTMLData:newsHtmlData];
-    NSString *titleXpath = @"//header[@class='narrow']/div[@class='h1']";
     
-    // NSString *imageNewsXpath = @"//ul[@class='wiadomosciLst']/li[@class='first']/a[@class='ikonka']/img";
-    //NSArray *imageNodes = [newsParser searchWithXPathQuery:imageNewsXpath];
+    //title
+    NSString *titleXpath = @"//header[@class='narrow']/div[@class='h1']";
     NSArray *titleNode = [newsParser searchWithXPathQuery:titleXpath];
-    NSLog(@"%@", titleNode);
     for (TFHppleElement *element in titleNode) {
        _titleText = [[element firstChild] content];
         NSLog(@"%@", [[element firstChild] content]);
     }
+    
+    //imageURL
+    NSString *imageXpath = @"//main[@class='ST-Artykul']/div[@class='bigFoto']/span/img";
+    NSArray *imageNode = [newsParser searchWithXPathQuery:imageXpath];
+    for (TFHppleElement *element in imageNode) {
+        _imageUrl = [element objectForKey:@"src"];
+        NSLog(@"%@", [element objectForKey:@"src"]);
+    }
+    
+    //article
+    NSString *artXpath = @"//main[@class='ST-Artykul']/div[@id='intertext1']";
+    NSArray *artNode = [newsParser searchWithXPathQuery:artXpath];
+    for (TFHppleElement *element in artNode) {
+        _article = [[element firstChild] content];
+        NSLog(@"rfsd %@", [[element firstChild] content]);
+    }
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -75,6 +95,22 @@
     return _newsItems.count;
 }
 
+- (CGFloat)getLabelHeight:(UILabel*)label
+{
+    CGSize constraint = CGSizeMake(label.frame.size.width, CGFLOAT_MAX);
+    CGSize size;
+    
+    NSStringDrawingContext *context = [[NSStringDrawingContext alloc] init];
+    CGSize boundingBox = [label.text boundingRectWithSize:constraint
+                                                  options:NSStringDrawingUsesLineFragmentOrigin
+                                               attributes:@{NSFontAttributeName:label.font}
+                                                  context:context].size;
+    
+    size = CGSizeMake(ceil(boundingBox.width), ceil(boundingBox.height));
+    
+    return size.height;
+}
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
    
@@ -82,7 +118,7 @@
     {
         TitleTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TitleTableViewCell"];
         cell.backgroundColor = [UIColor clearColor];
-        
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         if (cell == nil)
         {
@@ -90,18 +126,25 @@
         }
         cell.title.text = _titleText;
         
+        titleHeight = [self getLabelHeight:cell.title];
+        NSLog(@"%d", titleHeight);
+        
         return cell;
     } else if (indexPath.row == 1)
     {
         ImageTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ImageTableViewCell"];
         cell.backgroundColor = [UIColor clearColor];
-        
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         if (cell == nil)
         {
             cell = [ImageTableViewCell new];
         }
-        cell.image.image = nil;
+        NSURL * url = [NSURL URLWithString:_imageUrl];
+        NSData * imageData = [NSData dataWithContentsOfURL:url];
+        UIImage * image = [UIImage imageWithData:imageData];
+        cell.image.image = image;
+
         
         return cell;
 
@@ -110,13 +153,15 @@
     {
         TextTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TextTableViewCell"];
         cell.backgroundColor = [UIColor clearColor];
-        
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         if (cell == nil)
         {
             cell = [TextTableViewCell new];
         }
-        cell.textField.text = nil;
+        cell.textField.text = _article;
+        textHeight = [self getLabelHeight:cell.textField];
+
         
         return cell;
         
@@ -145,7 +190,7 @@
 {
     if (indexPath.row == 0)
     {
-        return 106;
+        return titleHeight;
     }
     else if (indexPath.row == 1)
     {
@@ -153,12 +198,9 @@
     }
     else if (indexPath.row == 2)
     {
-        return 204;
+        return textHeight;
     }
-    else
-    {
-        return 60;
-    }
+    return 0;
 }
 
 /*
